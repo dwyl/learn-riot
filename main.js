@@ -1,5 +1,9 @@
 // riot.mount('hello-world');
 
 riot.mount('hello', {
-  title: "World"
+  title: "World",
+  items: [
+      {title:"foo"},
+      {title:"two"}
+  ]
 });

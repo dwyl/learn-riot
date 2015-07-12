@@ -8,12 +8,13 @@
   console.log(one);
 })();
 
-riot.tag('hello', '<h1>Hello {opts.title}</h1> <button onclick="{one(1)}"></button>', function(opts){
+var html = '<h1>Hello {opts.title}</h1> <ul><li each="{opts.items}"><p onclick="{parent.delete}">{title}</p></li></ul>';
+riot.tag('hello', html, function(opts){
   opts.title = "hello";
   this.title = "moon";
-  this.one = function(one, two){
-    console.log('hi');
-    console.log(arguments);
+  this.delete = function () {
+    console.log('Delete', this);
   }.bind(this);
+  console.log('ops', opts);
   console.log("Arguments", arguments);
 });
