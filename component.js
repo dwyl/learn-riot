@@ -8,13 +8,24 @@
   console.log(one);
 })();
 
-var html = '<h1>Hello {opts.title}</h1> <ul><li each="{opts.items}"><p onclick="{parent.delete}">{title}</p></li></ul>';
+var html = '<h1>Hello {opts.title}</h1> <form onsubmit="{add}"><input name="item" type="text"></input></form> <ul><li each="{opts.items}"><p onclick="{parent.delete}">{title}</p></li></ul>';
 riot.tag('hello', html, function(opts){
-  opts.title = "hello";
-  this.title = "moon";
+
+  this.add = function(event) {
+    console.log(event.keyCode);
+    console.log("target",this.item.value);
+    opts.items.push({title: this.item.value});
+  };
+
   this.delete = function () {
-    console.log('Delete', this);
-  }.bind(this);
+    var index = opts.items.map(function(element){
+      return element.title;
+    }).indexOf(this.title);
+    console.log('index', index);
+    opts.items.splice(index, 1);
+    console.log('Delete', this.title);
+  };
+
   console.log('ops', opts);
   console.log("Arguments", arguments);
 });
