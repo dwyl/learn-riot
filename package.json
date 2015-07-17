@@ -1,0 +1,25 @@
+{
+  "name": "learn-riot",
+  "version": "1.0.0",
+  "description": "learn how to use riot.js to build ultra-efficient web applications",
+  "main": "hello/hello-node.js",
+  "scripts": {
+    "test": "tape?"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docdis/learn-riot.git"
+  },
+  "keywords": [
+    "riot.js",
+    "learn",
+    "tutorial",
+    "how-to"
+  ],
+  "author": "@Danwhy @besarthoxhaj @nelsonic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docdis/learn-riot/issues"
+  },
+  "homepage": "https://github.com/docdis/learn-riot"
+}
