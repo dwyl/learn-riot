@@ -1,6 +1,6 @@
 var riot  = require('riot');
-var fs    = require('fs');
-var hello = fs.readFileSync(__dirname + '/hello.tag', 'utf8'); // CANNOT require('hello.tag') !!
+console.log(__dirname + '/hello.tag \n')
+var hello = require(__dirname + '/hello.tag'); // CANNOT require('hello.tag') !!
 
 var html  = riot.render(hello, { name: "Ana" })
 console.log(html);
