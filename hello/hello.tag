@@ -1,3 +1,4 @@
 <hello>
-<p>Hello {name}</p>
+  <p>Hello {name}!</p>
+  this.name = opts.name
 </hello>

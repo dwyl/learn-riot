@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/docdis/learn-riot/issues"
   },
-  "homepage": "https://github.com/docdis/learn-riot"
+  "homepage": "https://github.com/docdis/learn-riot",
+  "dependencies": {
+    "riot": "^2.2.2"
+  }
 }
