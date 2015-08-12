@@ -1,3 +1,1 @@
-<hello>
-<p>Hello {name}</p>
-</hello>
+<hello><p>Ciao {name}</p></hello>

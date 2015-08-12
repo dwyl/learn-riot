@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>TEST Basic Riot.js Component/Tag</title>
+    <!-- Load the QUnit CSS file from CDN - Require to display our tests attractively -->
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.18.0.css">
+    <!-- Pure CSS is a minimalist CSS file we have included to make things look nicer -->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <script type="text/javascript" src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+    <link rel="shortcut icon" type="image/png" href="http://www.favicon.cc/logo3d/805435.png"/>
+  </head>
+  <body style='margin: 0 1em;'>
+    <div id='main'>
+
+    <h1 id='hello'><hello></hello></h1>
+
+
+    </div>
+
+    <script type='riot/tag'>
+      <hello>
+        <span>Hello {name}!</span>
+
+        console.log('hello Jack!')
+        this.name = opts.name
+      </hello>
+    </script>
+
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+    <!-- Load the QUnit Testing Framework from CDN - this is the important bit ... -->
+    <script src="https://cdn.jsdelivr.net/g/riot@2.2.3(riot.min.js+compiler.min.js)" charset="utf-8"></script>
+    <!-- <script src="hello.tag" type="riot/tag"> </script> -->
+    <script>riot.mount('hello', {name:'Emma'})</script>
+    <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
+    <!-- Load Blanket.js from CDN
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blanket.js/1.1.4/blanket.js"></script>
+    -->
+    <script>
+      // This is what a simple unit test looks like:
+      test('H1 is "Hello Emma!" (Basic Riot Tag Test)', function(assert) {
+        // var result = $('#hello').first().text();
+        var result = document.getElementById('hello').textContent;
+        console.log(result)
+        assert.equal(result, 'Hello Emma!'); // just so we know everything loaded ok
+      });
+
+    </script>
+
+  </body>
+</html>

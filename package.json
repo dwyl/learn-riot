@@ -4,7 +4,8 @@
   "description": "learn how to use riot.js to build ultra-efficient web applications",
   "main": "hello/hello-node.js",
   "scripts": {
-    "test": "tape?"
+    "test": "tape?",
+    "start": "./node_modules/.bin/nodemon static-server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/docdis/learn-riot/issues"
   },
-  "homepage": "https://github.com/docdis/learn-riot"
+  "homepage": "https://github.com/docdis/learn-riot",
+  "dependencies": {
+    "hapi": "^9.0.0",
+    "nodemon": "^1.4.1",
+    "riot": "^2.2.2"
+  }
 }
