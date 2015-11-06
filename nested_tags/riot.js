@@ -3,5 +3,5 @@ var riot  = require('riot');
 // as a tag inside hello.tag when rendered by riot below
 require('./iterator.tag');
 var hello = require('./hello.tag');
-var html  = riot.render(hello, { name: "Ana" })
+var html  = riot.render(hello, { name: "Ava" })
 console.log(html); // <hello><p>Hello Ana!</p></hello>
