@@ -49,8 +49,7 @@
     "start": "PORT=8000 ./node_modules/.bin/nodemon ./server.js"
   },
   "pre-commit": [
-    "jshint",
-    "coverage"
+    "jshint"
   ],
   "engines": {
     "node": ">=4.2.2"
