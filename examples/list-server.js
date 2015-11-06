@@ -5,3 +5,5 @@ require('./list-iterator.tag');
 var hello = require('./list.tag');
 var html  = riot.render(hello, { name: "Ava" })
 console.log(html); // <hello><p>Hello Ana!</p></hello>
+
+module.exports = hello;
