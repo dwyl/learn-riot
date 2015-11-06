@@ -1,4 +1,4 @@
-<hello>
-  <p>Items</p>
+<list>
+  <p>Items:</p>
   <list-iterator></list-iterator>
-</hello>
+</list>

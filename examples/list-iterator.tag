@@ -1,9 +1,9 @@
 <list-iterator>
-  <p each="{ name, value in list }">{ name } = { value }</p>
+  <li each="{ name, value in list }">{ name } = { value }</li>
 
   this.list = {
-    key1: 'value1',
-    key2: 1110.8900,
-    key3: Math.random()
+    task: 'Buy Seasonal Fruits + Cruciferous Veg',
+    task1: 'Make Green Smoothie',
+    task2: 'Drink Smoothie'
   }
 </list-iterator>
