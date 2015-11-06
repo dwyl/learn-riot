@@ -8,7 +8,7 @@ Mostly because Facebook are doing a *great* ***Marketing Job*** of making it *Fa
 
 ![that-react-from-facebook-so-hot-right-now](https://cloud.githubusercontent.com/assets/194400/10941244/63c9153a-82bf-11e5-82e5-ad96850fc079.jpg)
 
-<small>**Note**: if this makes no sense to you, go watch [***Zoolander***](http://www.imdb.com/title/tt0196229/) ***now***!
+<small>**Note**: if this *meme* makes *no sense* to you, go watch [***Zoolander***](http://www.imdb.com/title/tt0196229/) ***now***!
 </small>
 
 Using React *everywhere* is a *good plan* if your *objective* is to work for *this guy*:
@@ -17,9 +17,10 @@ Using React *everywhere* is a *good plan* if your *objective* is to work for *th
 
 > "*The* ***Best Minds*** *of my* ***generation*** *are thinking about how to* ***make people click on adds***, *that sucks*." ~ Jeffrey Hammerbacher ( *ex-Facebook Data Scientist* >> ***Cloudera Co-Founder*** )
 
-But just like *every* other *fashionable framework-du-jour*
-if you adopt it *blindly* because someone told you its "***Küel***"
-you run the risk of *forgetting* to *solve the problem*...
+But if you adopt it *blindly* because someone told you its "***Küel***"
+you run the risk of wasting time
+hunting for nails to hit with your new [*hammer*](https://en.wikipedia.org/wiki/Law_of_the_instrument)
+and *forgetting* to *solve the problem* ...
 
 > ***take*** *a* ***moment*** *to* ***think*** *about* ***exactly*** *what* ***problem*** *we are* ***trying*** *to* ***solve*** ...
 
