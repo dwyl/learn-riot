@@ -1,12 +1,27 @@
 # learn riot.js
 
+> "Riot is an incredibly fast, powerful yet tiny client side (MV*)
+library for building large scale web applications."
+
+[![Build Status](https://travis-ci.org/dwyl/learn-riot.svg)](https://travis-ci.org/dwyl/learn-riot)
+
+## Why?
+
+We need a way of separating the pieced of our web applications
+into discrete *components* that can be developed/tested independently
+and composed into a fast UI.
+
+## What?
+
 If you read Twitter or Medium it seems like ***ALL*** the "***Küel Kids***" are *jumping* on the ***React.js Bandwagon*** ...
 
 ![bandwagon-750x400](https://cloud.githubusercontent.com/assets/194400/10881343/ddde798a-8159-11e5-8de3-0b54ed49404d.jpg)
 
-Mostly because Facebook are doing a *great* ***Marketing Job*** of making it *Fashionable*...
+Mostly because Facebook are doing a *great* job of ***Marketing***  it which has made it *Fashionable* ...
 
 ![that-react-from-facebook-so-hot-right-now](https://cloud.githubusercontent.com/assets/194400/10941244/63c9153a-82bf-11e5-82e5-ad96850fc079.jpg)
+
+![react-zoolander](https://cloud.githubusercontent.com/assets/194400/10942177/ad85f2b6-82c3-11e5-999a-3e5933f73ada.jpg)
 
 <small>**Note**: if this *meme* makes *no sense* to you, go watch [***Zoolander***](http://www.imdb.com/title/tt0196229/) ***now***!
 </small>
@@ -17,49 +32,57 @@ Using React *everywhere* is a *good plan* if your *objective* is to work for *th
 
 > "*The* ***Best Minds*** *of my* ***generation*** *are thinking about how to* ***make people click on adds***, *that sucks*." ~ Jeffrey Hammerbacher ( *ex-Facebook Data Scientist* >> ***Cloudera Co-Founder*** )
 
-But if you adopt it *blindly* because someone told you its "***Küel***"
+React *does* have a *use case*,
+but if you adopt it *blindly*
+because someone told you its "***Küel***"
 you run the risk of wasting time
 hunting for nails to hit with your new [*hammer*](https://en.wikipedia.org/wiki/Law_of_the_instrument)
 and *forgetting* to *solve the problem* ...
 
-> ***take*** *a* ***moment*** *to* ***think*** *about* ***exactly*** *what* ***problem*** *we are* ***trying*** *to* ***solve*** ...
+React was built by Jordan Walke for Facebook's Ad
+Platform Management team because they needed a way of
+dynamically rendering ***thousands of DOM*** nodes on their
+ad-configuration single-page (*desktop*) app.
 
-If you prefer *not* to think for yourself or on behalf of
-the people using the app you are building ... close this page!
+Are you building a desktop app that has thousands of
+nodes that need to be dynamically updated?
 
-![react-zoolander](https://cloud.githubusercontent.com/assets/194400/10942177/ad85f2b6-82c3-11e5-999a-3e5933f73ada.jpg)
+If you are building a ***Mobile-First*** web application that
+has *thousands of DOM nodes* you are *probably over-complicating*
+the UI ... Once your *React* project has been "*Web Packed*" the
+resulting "*build*" is *huge* which makes it *slow* on mobile devices
+
+If you prefer ***not*** to ***think for yourself*** or on behalf of
+the people *using* the app you are building, *close this page*!
 
 
-***However***, *if like us, you prefer* ***not*** *to get*
- ***sucked*** *into following* ***fashion***,
-*we can take step back and*
+> ***take*** *a* ***moment*** *to* ***think*** *about* ***exactly*** *what* ***problem*** *you are* ***trying*** *to* ***solve*** ...
+
+*If like us, you prefer* ***not*** *to get*
+ ***sucked*** *into blindly following* ***fashion***,
+*take step back and*
 ***objectively consider*** *your options*.
 
-We would *prefer* to use ***native*** **Web Components**
-because they are a ***Web Standard***: http://www.w3.org/standards/techs/components#w3c_all
+### Can We Use *Native Web Components* ?
 
-But *sadly*, there is not yet widespread adoption for them in the major browsers: http://caniuse.com/#search=components
+Web Components are *going* to revolutionize the web. *Eventually*.  
+The current *status* is "*working draft*" see: http://www.w3.org/standards/techs/components#w3c_all  
+which means the *finer details* are *still being debated* by the W3C.
 
-So, while we *wait* for Internet Explorer to catch up, we are thinking of using http://riotjs.com because its *much* smaller and
-thus *faster-to-learn* than anything else out there...
+This means that *sadly*, there is not yet widespread adoption for them *specifically* lacking support in Internet Explorer or Safari: http://caniuse.com/#search=components
+
+But since Google Chrome now has over [***50% Market Share**](http://www.sitepoint.com/browser-trends-august-2015-chrome-exceeds-50)
+
+So, while we [*wait*](http://www.2ality.com/2015/08/web-component-status.html)
+for Internet Explorer to catch up, we are using [**Riot**](http://riotjs.com) because its *much* smaller and
+thus *faster-to-learn* than *everything* else out there...
 
 ![riot header](https://cloud.githubusercontent.com/assets/194400/10937086/7c62bab4-82e8-11e5-89e8-5e41f7864734.png)
 
 A quick introduction to the [Riot.js](https://muut.com/riotjs) client side MVP library for people who want to build minimalist apps.
 
-## Why?
 
-> "Riot is an incredibly fast, powerful yet tiny client side (MV*)
-library for building large scale web applications."
 
-### What does that even mean?
-
-Read the full detail in [Tero Piirainen](https://github.com/tipiirai)'s post introducing Riot: <br />
-https://muut.com/blog/technology/riotjs-the-1kb-mvp-framework.html
-
-## What?
-
-Once your *React* project has been "Web Packed" the resulting "*build* is *huge*
 
 ## *How*?
 
