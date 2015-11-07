@@ -20,8 +20,6 @@
     <script type='riot/tag'>
       <hello>
         <span>Hello {name}!</span>
-
-        console.log('hello Jack!')
         this.name = opts.name
       </hello>
     </script>
@@ -30,21 +28,24 @@
     <div id="qunit-fixture"></div>
     <!-- Load the QUnit Testing Framework from CDN - this is the important bit ... -->
     <script src="https://cdn.jsdelivr.net/g/riot@2.2.3(riot.min.js+compiler.min.js)" charset="utf-8"></script>
-    <!-- <script src="hello.tag" type="riot/tag"> </script> -->
-    <script>riot.mount('hello', {name:'Emma'})</script>
+    <!-- <script src="hello.tag" type="riot/tag"> </script>
+    <!-- <script>riot.mount('hello', {name:'Emma'})</script> -->
     <script src="https://code.jquery.com/qunit/qunit-1.18.0.js"></script>
     <!-- Load Blanket.js from CDN
     <script src="https://cdnjs.cloudflare.com/ajax/libs/blanket.js/1.1.4/blanket.js"></script>
     -->
     <script>
-      // This is what a simple unit test looks like:
-      test('H1 is "Hello Emma!" (Basic Riot Tag Test)', function(assert) {
-        // var result = $('#hello').first().text();
-        var result = document.getElementById('hello').textContent;
-        console.log(result)
-        assert.equal(result, 'Hello Emma!'); // just so we know everything loaded ok
-      });
-
+      riot.mount('hello', {name:'Jack'})
+      setTimeout(function(){
+        // This is what a simple unit test looks like:
+        test('H1 is "Hello Jacktastic!" (Basic Riot Tag Test)', function(assert) {
+          // var result = $('#hello').first().text();
+            var result = document.getElementById('hello').textContent;
+            console.log(result)
+            assert.equal(result, 'Hello Jack!'); // just so we know everything loaded ok
+      
+        });
+      },100);
     </script>
 
   </body>
