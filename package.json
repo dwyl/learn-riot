@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/docdis/learn-riot",
   "dependencies": {
-    "hapi": "^9.0.0",
-    "nodemon": "^1.4.1",
-    "riot": "^2.2.2"
+    "hapi": "^11.1.0",
+    "nodemon": "^1.8.1",
+    "riot": "2.2.4"
   }
 }
