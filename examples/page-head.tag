@@ -11,13 +11,12 @@
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
 
-<![endif]-->
+  <![endif]-->
   <!--[if gt IE 8]><!-->
 
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
 
   <!--<![endif]-->
-
 
   <!--[if lte IE 8]>
         <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
