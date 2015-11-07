@@ -17,7 +17,7 @@
     "tutorial",
     "how-to"
   ],
-  "author": "@Danwhy @besarthoxhaj @nelsonic <your name here!>",
+  "author": "@Danwhy, @besarthoxhaj, @nelsonic, <your name here!>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/docdis/learn-riot/issues"
@@ -41,7 +41,7 @@
   "scripts": {
     "docs": "./node_modules/jsdoc/jsdoc.js ./lib/*.js",
     "test": "PORT=8000 ./node_modules/tape/bin/tape ./test/*.js",
-    "test2": "PORT=8000 ./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js",
+    "test2": "PORT=8000 ./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.test.js",
     "coverage": "PORT=8000 ./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js && ./node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
     "jshint": "./node_modules/jshint/bin/jshint -c .jshintrc --exclude-path .gitignore .",
     "open-coverage": "open ./test/coverage.html",

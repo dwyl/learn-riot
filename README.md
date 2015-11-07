@@ -7,7 +7,7 @@ library for building large scale web applications."
 
 ## Why?
 
-We need a way of separating the pieced of our web applications
+We need a way of organising the pieces of our web applications
 into discrete *components* that can be developed/tested independently
 and composed into a fast UI.
 

@@ -9,7 +9,7 @@ test(file + "Nested Tag test", function(t) {
   require('../examples/list-iterator.tag'); // resolve nested tag
   var list = require('../examples/list.tag'); // sync
   var html  = riot.render(list, { name: "Ana" });
-  console.log(html);
+  // console.log(html);
   t.ok(html.match(/Smoothie/), "List contains smoothie.");
   t.end()
 });
