@@ -10,6 +10,15 @@ library for building large scale web applications."
 ## Table of contents
 
 - [Why](#why)
+- [What](#what)
+ -  [Can We Use *Native Web Components?*](#can-we-use-native-web-components)
+- [How](#how)
+- [FAQ](#faq)
+- [Resources](#resources)
+ - [Official links](#official-links)
+ - [Introductory Tutorial](#introductory-tutorial)
+ - [Examples](#examples)
+ - [Screencasts](#screencasts)
 
 ## Why?
 
