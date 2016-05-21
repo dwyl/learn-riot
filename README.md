@@ -7,6 +7,10 @@ library for building large scale web applications."
 
 # *Sadly* We Can't *Use* Riot ... See: [#8](https://github.com/dwyl/learn-riot/issues/8)
 
+## Table of contents
+
+- [Why](#why)
+
 ## Why?
 
 We need a way of organising the pieces of our web applications
@@ -55,13 +59,29 @@ which means that `require()` *understands* how to load a `.tag` file.
 
 > More FAQ: http://riotjs.com/faq/
 
-### Introductory Tutorial
 
-http://riotjs.com/guide/
+## *Resources*
 
-## Links
+### Official links
 
 - Site: http://riotjs.com/
 - GitHub repo: https://github.com/riot/riot
 - Muut Manifesto (the makers of riot.js): https://muut.com/manifesto
+
+### Introductory Tutorial
+- http://riotjs.com/guide/
+
+### Examples
+
 - Riot ToDoMVC: https://github.com/3den/riotjs-todomvc
+
+### Screencasts
+
+- [RiotJS - Introdution Part #1](https://www.youtube.com/watch?v=ZHmJ_gcZ8Fw) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[03:29]`
+- [RiotJS - Event Handlers and Rendering Part #2](https://www.youtube.com/watch?v=FPmAZD9QRQw) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[03:10]`
+- [RiotJS - Looping with each attribute Part #3](https://www.youtube.com/watch?v=VDKenvP5TyM) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[02:19]`
+- [RiotJS - Nested Tags / Inheritance Part #4](https://www.youtube.com/watch?v=DzyaPZCrQ-A) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[03:38]`
+- [RiotJS - Expressions and Classes - Part #5](https://www.youtube.com/watch?v=_a4OSbPSUEE) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[02:00]`
+- [RiotJS - Observables - Part #6](https://www.youtube.com/watch?v=CHBQtqNtEhM) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[05:09]`
+- [RiotJS - Routing - Part #7](https://www.youtube.com/watch?v=1Q9Nad1Mu6A) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[05:36]`
+
