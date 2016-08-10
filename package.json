@@ -1,6 +1,6 @@
 {
   "name": "learn-riot",
-  "version": "2.2.4",
+  "version": "2.5.0",
   "description": "learn how to use riot.js to build ultra-efficient web applications",
   "main": "hello/hello-node.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "dependencies": {
     "hapi": "^11.1.0",
     "nodemon": "^1.8.1",
-    "riot": "2.2.4"
+    "riot": "^2.5.0"
   },
   "devDependencies": {
     "decache": "^3.0.3",
