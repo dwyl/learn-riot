@@ -5,7 +5,6 @@ library for building large scale web applications."
 
 [![Build Status](https://travis-ci.org/dwyl/learn-riot.svg)](https://travis-ci.org/dwyl/learn-riot)
 
-# *Sadly* We Can't *Use* Riot ... See: [#8](https://github.com/dwyl/learn-riot/issues/8)
 
 ## Table of contents
 
@@ -46,6 +45,7 @@ thus *faster-to-learn* than *everything* else out there...
 
 A quick introduction to the [Riot.js](https://muut.com/riotjs) client side MVP library for people who want to build minimalist apps.
 
+> Imagine React went on a diet, got better syntax, that's Riot.
 
 ## *How*?
 
@@ -93,4 +93,3 @@ which means that `require()` *understands* how to load a `.tag` file.
 - [RiotJS - Expressions and Classes - Part #5](https://www.youtube.com/watch?v=_a4OSbPSUEE) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[02:00]`
 - [RiotJS - Observables - Part #6](https://www.youtube.com/watch?v=CHBQtqNtEhM) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[05:09]`
 - [RiotJS - Routing - Part #7](https://www.youtube.com/watch?v=1Q9Nad1Mu6A) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[05:36]`
-
