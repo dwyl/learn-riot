@@ -79,6 +79,7 @@ which means that `require()` *understands* how to load a `.tag` file.
 
 ### Introductory Tutorial
 - http://riotjs.com/guide/
++ Cheat Sheet: http://martinmuzatko.github.io/riot-cheatsheet/ (basic examples)
 
 ### Examples
 
