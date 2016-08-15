@@ -33,9 +33,11 @@ Web Components are *going* to revolutionize the web. *Eventually*.
 The current *status* is "*working draft*" see: http://www.w3.org/standards/techs/components#w3c_all  
 which means the *finer details* are *still being debated* by the W3C.
 
-This means that *sadly*, there is not yet widespread adoption for them *specifically* lacking support in Internet Explorer or Safari: http://caniuse.com/#search=components
+ *Sadly*, there is not yet widespread adoption for the Web Component spec.
 
-But since Google Chrome now has over [***50% Market Share**](http://www.sitepoint.com/browser-trends-august-2015-chrome-exceeds-50)
+Even though Google Chrome now has over 
+[***50% Market Share***](http://www.sitepoint.com/browser-trends-august-2015-chrome-exceeds-50),
+Internet Explorer and Safari are still lagging behind: http://caniuse.com/#search=components
 
 So, while we [*wait*](http://www.2ality.com/2015/08/web-component-status.html)
 for Internet Explorer to catch up, we are using [**Riot**](http://riotjs.com) because its *much* smaller and
