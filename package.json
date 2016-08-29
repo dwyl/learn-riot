@@ -21,6 +21,7 @@
   "homepage": "https://github.com/docdis/learn-riot",
   "dependencies": {
     "hapi": "^15.0.2",
+    "inert": "^4.0.2",
     "riot": "^2.6.1"
   },
   "devDependencies": {
@@ -40,7 +41,8 @@
     "coverage": "PORT=8000 ./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js && ./node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
     "open-coverage": "open ./test/coverage.html",
     "spec": "PORT=8000 node ./node_modules/tape/bin/tape ./test/*.js | node_modules/tap-spec/bin/cmd.js",
-    "start": "PORT=8000 ./node_modules/.bin/live-server --open=./examples"
+    "dev": "PORT=8000 ./node_modules/.bin/live-server --open=./examples",
+    "start": "node examples/static-server.js"
   },
   "pre-commit": [
     "coverage"
