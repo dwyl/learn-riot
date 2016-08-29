@@ -16,13 +16,13 @@
 
   <body>
     <h1>Hai!</h1>
-    <div data-is="todo-list"></div>
+    <div data-is="todo"></div>
 
-    <script src="todo-list.tag" type="riot/tag"></script>
+    <script src="todo.tag" type="riot/tag"></script>
     <script src="https://rawgit.com/riot/riot/master/riot%2Bcompiler.min.js"></script>
 
     <script>
-    riot.mount('todo-list', {
+    riot.mount('todo', {
       title: 'My Amazing Todo List',
       items: [
         { title: 'Avoid excessive caffeine', done: true },
@@ -34,5 +34,4 @@
     </script>
 
   </body>
-
 </html>

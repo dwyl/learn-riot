@@ -1,4 +1,4 @@
-<todo-list>
+<todo>
 
   <h3>{ opts.title }</h3>
 
@@ -55,4 +55,4 @@
     }
   </script>
 
-</todo-list>
+</todo>
