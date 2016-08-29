@@ -1,9 +1,9 @@
 var riot  = require('riot');
 // by requiring the itterator tag here it becomes available
-// as a tag inside hello.tag when rendered by riot below
+// as a tag inside list.tag when rendered by riot below
 require('./list-iterator.tag');
-var hello = require('./list.tag');
-var html  = riot.render(hello, { name: "Ava" })
-console.log(html); // <hello><p>Hello Ana!</p></hello>
+var list = require('./list.tag');
+var html  = riot.render(list, { name: 'My List'});
+console.log(html);
 
-module.exports = hello;
+module.exports = list;

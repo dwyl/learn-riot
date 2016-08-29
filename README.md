@@ -55,6 +55,7 @@ A quick introduction to the [Riot.js](https://muut.com/riotjs) client side MVP l
 
 On the Riot.js website, visit the "_Guide_" page: http://riotjs.com/guide/
 
+> W3C Valid Code: https://validator.w3.org/nu/?doc=https%3A%2F%2Flearn-riot.herokuapp.com%2Ftodo%2F
 
 
 ### Videos
