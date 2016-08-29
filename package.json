@@ -1,12 +1,7 @@
 {
   "name": "learn-riot",
-  "version": "2.5.0",
+  "version": "2.6.1",
   "description": "learn how to use riot.js to build ultra-efficient web applications",
-  "main": "hello/hello-node.js",
-  "scripts": {
-    "test": "tape?",
-    "start": "./node_modules/.bin/nodemon static-server.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/docdis/learn-riot.git"
@@ -15,7 +10,8 @@
     "riot.js",
     "learn",
     "tutorial",
-    "how-to"
+    "how-to",
+    "full-stack"
   ],
   "author": "@Danwhy, @besarthoxhaj, @nelsonic, <your name here!>",
   "license": "ISC",
@@ -24,15 +20,14 @@
   },
   "homepage": "https://github.com/docdis/learn-riot",
   "dependencies": {
-    "hapi": "^11.1.0",
-    "nodemon": "^1.8.1",
-    "riot": "^2.5.0"
+    "hapi": "^15.0.2",
+    "riot": "^2.6.1"
   },
   "devDependencies": {
     "decache": "^3.0.3",
     "istanbul": "^0.4.0",
     "jsdoc": "^3.3.3",
-    "jshint": "^2.8.0",
+    "live-server": "^1.1.0",
     "nodemon": "^1.8.1",
     "pre-commit": "1.1.2",
     "tap-spec": "^4.1.0",
@@ -43,13 +38,12 @@
     "test": "PORT=8000 ./node_modules/tape/bin/tape ./test/*.js",
     "test2": "PORT=8000 ./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.test.js",
     "coverage": "PORT=8000 ./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js && ./node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
-    "jshint": "./node_modules/jshint/bin/jshint -c .jshintrc --exclude-path .gitignore .",
     "open-coverage": "open ./test/coverage.html",
     "spec": "PORT=8000 node ./node_modules/tape/bin/tape ./test/*.js | node_modules/tap-spec/bin/cmd.js",
-    "start": "PORT=8000 ./node_modules/.bin/nodemon ./server.js"
+    "start": "PORT=8000 ./node_modules/.bin/live-server --open=./examples"
   },
   "pre-commit": [
-    "jshint"
+    "coverage"
   ],
   "engines": {
     "node": ">=4.2.2"

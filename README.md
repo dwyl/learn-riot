@@ -4,13 +4,14 @@
 library for building large scale web applications."
 
 [![Build Status](https://travis-ci.org/dwyl/learn-riot.svg)](https://travis-ci.org/dwyl/learn-riot)
+[![npm](https://img.shields.io/npm/v/riot.svg?maxAge=2592000)](http://riotjs.com/)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/learn-riot/issues)
 
-
-## Table of contents
+## Table of Contents
 
 - [Why](#why)
 - [What](#what)
- -  [Can We Use *Native Web Components?*](#can-we-use-native-web-components)
+ -  [Can We Use *"Native" Web Components?*](#can-we-use-native-web-components)
 - [How](#how)
 - [FAQ](#faq)
 - [Resources](#resources)
@@ -23,40 +24,42 @@ library for building large scale web applications."
 
 We need a way of organising the pieces of our web applications
 into discrete *components* that can be developed/tested independently
-and composed into a fast UI.
+and composed into a fast User Interface/Experience.
 
 ## What?
+
+![riot header](https://cloud.githubusercontent.com/assets/194400/10937086/7c62bab4-82e8-11e5-89e8-5e41f7864734.png)
 
 ### Can We Use *Native Web Components* ?
 
 Web Components are *going* to revolutionize the web. *Eventually*.  
-The current *status* is "*working draft*" see: http://www.w3.org/standards/techs/components#w3c_all  
-which means the *finer details* are *still being debated* by the W3C.
-
  *Sadly*, there is not yet widespread adoption for the Web Component spec.
 
-Even though Google Chrome now has over 
-[***50% Market Share***](http://www.sitepoint.com/browser-trends-august-2015-chrome-exceeds-50),
-Internet Explorer and Safari are still lagging behind: http://caniuse.com/#search=components
+ Even though Google Chrome supports all the pieces of Web Components and has over
+ [***50% Market Share***](http://www.sitepoint.com/browser-trends-august-2015-chrome-exceeds-50),
+ Internet Explorer and Safari are still lagging behind: http://caniuse.com/#search=components
+
+The current *status* is "*working draft*" see: http://www.w3.org/standards/techs/components#w3c_all  
+which means the *finer details* are *still being debated* by the W3C,
+which means we might sill have a few months (_years_?) to wait...
 
 So, while we [*wait*](http://www.2ality.com/2015/08/web-component-status.html)
 for Internet Explorer to catch up, we are using [**Riot**](http://riotjs.com) because its *much* smaller and
 thus *faster-to-learn* than *everything* else out there...
 
-![riot header](https://cloud.githubusercontent.com/assets/194400/10937086/7c62bab4-82e8-11e5-89e8-5e41f7864734.png)
-
 A quick introduction to the [Riot.js](https://muut.com/riotjs) client side MVP library for people who want to build minimalist apps.
 
-> Imagine React went on a diet, got better syntax, that's Riot.
+> _Imagine **React went on a diet** and got **better syntax**, **that's Riot.js**_.
 
 ## *How*?
 
-We have included a couple of *working* examples in the /**examples**
-directory of this repo in case others decide to adopt Riot.
-We are going in search of something that will pass W3C Validator ...
+On the Riot.js website, visit the "_Guide_" page: http://riotjs.com/guide/
 
-> If you know/discover a way of building full-stack apps that
-validates in both [W3C](https://validator.w3.org/) ***and*** [WCAG](https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines) ***please*** let us know!!
+
+
+### Videos
+
+Searching YouTub for riot.js https://www.youtube.com/results?search_query=riot.js there are _thousands_ of results. If you are _totally new_ to Riot and want a "Why Riot" overview,
 
 ### *FAQ*?
 
@@ -69,7 +72,6 @@ the `riot` *module* ***extends*** node's native `require` method
 which means that `require()` *understands* how to load a `.tag` file.
 
 > More FAQ: http://riotjs.com/faq/
-
 
 ## *Resources*
 
@@ -96,3 +98,7 @@ which means that `require()` *understands* how to load a `.tag` file.
 - [RiotJS - Expressions and Classes - Part #5](https://www.youtube.com/watch?v=_a4OSbPSUEE) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[02:00]`
 - [RiotJS - Observables - Part #6](https://www.youtube.com/watch?v=CHBQtqNtEhM) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[05:09]`
 - [RiotJS - Routing - Part #7](https://www.youtube.com/watch?v=1Q9Nad1Mu6A) by [@andrewdelprete](https://github.com/andrewdelprete) **- Youtube** `[05:36]`
+
+## license
+
+MIT: https://en.wikipedia.org/wiki/MIT_License
