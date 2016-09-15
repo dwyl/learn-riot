@@ -1,5 +1,5 @@
 <span data-riot='hello'>
-  <p>Hello {name}</p>
+  <h1>Hello {name}</h1>
   <script>
     this.name = opts.name;
   </script>
